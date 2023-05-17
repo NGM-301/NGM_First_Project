@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.study.NGM301.sgjang11.mapper.MemberMapper">
+
+    <select id="getMemberList" resultType="com.study.NGM301.sgjang11.service.MemberVO">
+        SELECT user_no, user_id, user_pass
+        FROM ngm_301.`member`;
+    </select>
+</mapper>

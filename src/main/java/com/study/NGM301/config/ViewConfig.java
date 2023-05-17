@@ -6,12 +6,13 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 public class ViewConfig extends WebMvcConfigurerAdapter {
-    @Bean
+    //@Bean
+/*
     public ViewResolver getviewResolver() {
         InternalResourceViewResolver resolver = new InternalResourceViewResolver();
         resolver.setPrefix("classpath:/templates/");
         resolver.setSuffix(".html");
         return resolver;
     }
-
+*/
 }
