@@ -25,6 +25,10 @@ public class TestController {
         for (MemberVO memberVO : memberList) {
             System.out.println("memberVO = " + memberVO);
         }
+
+        for (int i = 0; i < memberList.size(); i++) {
+            System.out.println("memberList = " + memberList.get(i));
+        }
         modelAndView.addObject(memberList);
         return modelAndView;
     }
